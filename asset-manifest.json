@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Marvel-API/static/css/main.e65cd814.css",
+    "main.js": "/Marvel-API/static/js/main.c4fc5b5c.js",
+    "static/media/marvelbg.jpg": "/Marvel-API/static/media/marvelbg.b51b682857bf7bf5a5a0.jpg",
+    "static/media/marvel-logo.png": "/Marvel-API/static/media/marvel-logo.58b8e3c47bc4eb3fda69.png",
+    "index.html": "/Marvel-API/index.html",
+    "main.e65cd814.css.map": "/Marvel-API/static/css/main.e65cd814.css.map",
+    "main.c4fc5b5c.js.map": "/Marvel-API/static/js/main.c4fc5b5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e65cd814.css",
+    "static/js/main.c4fc5b5c.js"
+  ]
+}
