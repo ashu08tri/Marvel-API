@@ -14,12 +14,12 @@ function App() {
   useEffect(()=>{
     const fetch = async() => {
       if(query === ""){
-        const result = await axios.get(`http://gateway.marvel.com/v1/public/characters?ts=1&apikey=${API}`)
+        const result = await axios.get(`https://gateway.marvel.com/v1/public/characters?ts=1&apikey=${API}`)
         console.log(result.data.data.results)
         setItems(result.data.data.results)
         setLoading(false)
       }else{
-        const result = await axios.get(`http://gateway.marvel.com/v1/public/characters?nameStartsWith=${query}&ts=1&apikey=${API}`)
+        const result = await axios.get(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${query}&ts=1&apikey=${API}`)
         console.log(result.data.data.results)
         setItems(result.data.data.results)
         setLoading(false)
